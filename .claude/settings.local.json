@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ipconfig *)",
+      "Bash(npm start *)",
+      "Bash(curl -sv --max-time 3 http://192.168.0.11/estado)",
+      "Bash(curl -sv --max-time 3 http://192.168.0.28/estado)",
+      "Bash(curl *)",
+      "Bash(ping *)",
+      "Bash(npx tsc *)",
+      "Bash(npm.cmd start *)",
+      "mcp__claude_ai_Claude_Docs__guide",
+      "mcp__claude_ai_Claude_Docs__batch",
+      "mcp__claude_ai_Claude_Docs__update",
+      "Bash(npx ng *)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('scripts',{}\\)\\)\")",
+      "Bash(git *)",
+      "Bash(winget install *)"
+    ]
+  }
+}

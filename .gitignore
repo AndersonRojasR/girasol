@@ -1,0 +1,18 @@
+# Node / Angular
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+frontend/.angular/
+
+# Arduino / ESP32
+esp32/**/*.o
+esp32/**/*.elf
+esp32/**/*.bin
+esp32/**/*.hex
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+esp32/control_led/secrets.h
