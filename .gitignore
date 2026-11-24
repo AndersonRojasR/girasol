@@ -16,3 +16,6 @@ Thumbs.db
 desktop.ini
 *.log
 esp32/control_led/secrets.h
+
+.claude/
+frontend/.test-output/
